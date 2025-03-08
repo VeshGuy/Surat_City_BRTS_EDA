@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2a626de80e52833d74c11cee7ac9aed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b2a626de80e52833d74c11cee7ac9aed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b2a626de80e52833d74c11cee7ac9aed = L.map(
+                "map_b2a626de80e52833d74c11cee7ac9aed",
+                {
+                    center: [21.2, 72.8],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ccce56d3d782baaac9a16b79439befbe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ccce56d3d782baaac9a16b79439befbe.addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+            var marker_590b5f40cd6ac11fb5e22e1baca339a2 = L.marker(
+                [21.11882, 72.849281],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_9152ba542d3ef2e694b5d7606320c8a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_943e488982b658e49ba1a88a8d20e53f = $(`<div id="html_943e488982b658e49ba1a88a8d20e53f" style="width: 100.0%; height: 100.0%;">BHESTAN DEPOT</div>`)[0];
+                popup_9152ba542d3ef2e694b5d7606320c8a7.setContent(html_943e488982b658e49ba1a88a8d20e53f);
+            
+        
+
+        marker_590b5f40cd6ac11fb5e22e1baca339a2.bindPopup(popup_9152ba542d3ef2e694b5d7606320c8a7)
+        ;
+
+        
+    
+    
+            var marker_56e4064f6276cb0de9948529245a7c1f = L.marker(
+                [21.247786, 72.853752],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_45f12cfa260ffbc8434292378c47e7c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eba7b81a375eb094671d65579007f34f = $(`<div id="html_eba7b81a375eb094671d65579007f34f" style="width: 100.0%; height: 100.0%;">KOSAD DEPOT</div>`)[0];
+                popup_45f12cfa260ffbc8434292378c47e7c7.setContent(html_eba7b81a375eb094671d65579007f34f);
+            
+        
+
+        marker_56e4064f6276cb0de9948529245a7c1f.bindPopup(popup_45f12cfa260ffbc8434292378c47e7c7)
+        ;
+
+        
+    
+    
+            var marker_2f14c3b16ccaabf3c77c6b64cf634af2 = L.marker(
+                [21.184625, 72.789746],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_bd261266b0dafbae748e524b810db62b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_693770557326d39a83b8c3888f3367a9 = $(`<div id="html_693770557326d39a83b8c3888f3367a9" style="width: 100.0%; height: 100.0%;">PAL DEPOT</div>`)[0];
+                popup_bd261266b0dafbae748e524b810db62b.setContent(html_693770557326d39a83b8c3888f3367a9);
+            
+        
+
+        marker_2f14c3b16ccaabf3c77c6b64cf634af2.bindPopup(popup_bd261266b0dafbae748e524b810db62b)
+        ;
+
+        
+    
+    
+            var marker_13cfcd9056c63cba506e8c5bd521aeea = L.marker(
+                [21.201256, 72.775902],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_f6c9b9b97b9fdd8bb462c7b1ee7e6dee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8e21807c317b56a09c366a4f0e13514 = $(`<div id="html_b8e21807c317b56a09c366a4f0e13514" style="width: 100.0%; height: 100.0%;">LP SAWANI DEPOT</div>`)[0];
+                popup_f6c9b9b97b9fdd8bb462c7b1ee7e6dee.setContent(html_b8e21807c317b56a09c366a4f0e13514);
+            
+        
+
+        marker_13cfcd9056c63cba506e8c5bd521aeea.bindPopup(popup_f6c9b9b97b9fdd8bb462c7b1ee7e6dee)
+        ;
+
+        
+    
+    
+            var marker_5040610326c2580597eae7e9ccf36070 = L.marker(
+                [21.124823, 72.851966],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_95fd68ab4583b1dd545d8c7c3b6ff77b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4abe68871b11b1000237474340018123 = $(`<div id="html_4abe68871b11b1000237474340018123" style="width: 100.0%; height: 100.0%;">BHESTAN GARDEN</div>`)[0];
+                popup_95fd68ab4583b1dd545d8c7c3b6ff77b.setContent(html_4abe68871b11b1000237474340018123);
+            
+        
+
+        marker_5040610326c2580597eae7e9ccf36070.bindPopup(popup_95fd68ab4583b1dd545d8c7c3b6ff77b)
+        ;
+
+        
+    
+    
+            var marker_6ce32d2639c5b798fc80e4163d87b3ce = L.marker(
+                [21.258355, 72.84838],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_a222889a86fde24df8afed65e77058f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e582022fd0da53a9eade66ec067c2e7 = $(`<div id="html_1e582022fd0da53a9eade66ec067c2e7" style="width: 100.0%; height: 100.0%;">HANSA KOSAD DEPOT</div>`)[0];
+                popup_a222889a86fde24df8afed65e77058f1.setContent(html_1e582022fd0da53a9eade66ec067c2e7);
+            
+        
+
+        marker_6ce32d2639c5b798fc80e4163d87b3ce.bindPopup(popup_a222889a86fde24df8afed65e77058f1)
+        ;
+
+        
+    
+    
+            var marker_993ef9aa17fee93fea505e5d203256d0 = L.marker(
+                [22.29904, 73.195279],
+                {
+}
+            ).addTo(map_b2a626de80e52833d74c11cee7ac9aed);
+        
+    
+        var popup_9424a7579b29931ce5ca3a0d4ea77eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a049e321190d9f122281107df2ab5a92 = $(`<div id="html_a049e321190d9f122281107df2ab5a92" style="width: 100.0%; height: 100.0%;">TEST DEPOT</div>`)[0];
+                popup_9424a7579b29931ce5ca3a0d4ea77eb4.setContent(html_a049e321190d9f122281107df2ab5a92);
+            
+        
+
+        marker_993ef9aa17fee93fea505e5d203256d0.bindPopup(popup_9424a7579b29931ce5ca3a0d4ea77eb4)
+        ;
+
+        
+    
+</script>
+</html>
